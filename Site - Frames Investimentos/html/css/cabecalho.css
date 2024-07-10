@@ -1,0 +1,145 @@
+header{
+    width: 100%;
+    height: 30%;
+}
+
+.cabecalho{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(0, 85, 0);
+    justify-content: left;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.logo {
+    float: left;
+    padding: 3px;
+    width: auto;
+    margin: 0 auto;
+    height: 30px;
+}
+
+.redes-sociais {
+    width: 210px;
+    float: right;
+}
+.redes-sociais img {
+   padding: 15px;
+}
+
+.redes-sociais ul li {
+    display: inline-table;
+    float: left;
+    list-style: none;
+}
+
+/* NAVIGATION */ 
+.nav{
+    background: rgb(1, 113, 18);
+    width: auto;
+    margin: 0 auto;
+}
+.nav ul{
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    width: 900px;
+    height: 60px;
+}
+.nav ul li{
+    display: inline-table;
+    height: 100%;
+    margin: 0 100px;
+    background-repeat: repeat;
+}
+.nav ul li a{
+    text-decoration: none;
+    display: table-cell;
+    vertical-align: middle;
+    font: 1.1rem Verdana, times, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 5px;
+    border-bottom: 3px solid #c5b42e;
+    background-repeat: repeat;
+    
+}
+.nav ul li a:hover{
+    background: #fff;
+    color:  rgb(1, 82, 0);
+    transform: scale(1.1);
+    transition: .5s;
+    
+}
+
+
+@media only screen and (min-width:800px) and (max-width:1024px){
+    .nav{
+        height: 80p;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .nav{
+        max-width: 100%;
+    }
+    .nav ul{
+        max-width: 100%;
+    }
+    .nav ul li{
+        width: 1rem;
+        margin: 0 80px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .cabecalho{
+        width: 100%;
+    }
+    .redes-sociais{
+        margin-top: 30px;
+        width: 100%;
+        opacity: 1;
+        background-color:rgb(0, 77, 6) ;
+    }
+    .nav{
+        margin-top: 50px;
+    }
+    .nav ul{
+        max-width: 100%;
+    }
+    .nav ul li{
+        width: 1rem;
+        margin: 0 25px;
+    }
+
+
+    @media screen and (max-width: 375px){
+
+        .nav ul li{
+            width: 1rem;
+            margin: 0 15px;
+        }
+
+    }
+
+    @media screen and (max-width: 320px){
+        
+        html{
+            width: 100%;
+        }
+        .logo img{
+            width: 300px;
+        }
+        .nav ul li{
+            width: 0.75rem;
+            margin: 0 7px;
+        }
+
+
+    }
+
+    
+}
+

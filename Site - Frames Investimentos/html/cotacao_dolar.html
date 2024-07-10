@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Converter Reais para Dólar</title>
+    <link href="css/bootstrap.min2.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  </head>
+  <body>
+    <center>
+    <h1>Converter Reais para Dólar</h1>
+    <form class="form-horizontal" action="index.php" method="post">
+      <fieldset>
+      
+      <!-- Form Name -->
+      <legend>REAL -> DÓLAR</legend>
+      
+      <!-- Text input-->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="textinput">R$:</label>  
+        <div class="col-md-4">
+        <input id="textinput" name="real" type="number" placeholder="só aceita números" class="form-control input-md" required="">
+          
+        </div>
+      </div>
+      
+      <!-- Button -->
+      <div class="form-group">
+        <div class="col-md-2">
+          <br><button id="bPesquisar" name="bPesquisar" class="btn btn-success" type="submit">Fazer a Coversão</button>
+        </div>
+      </div>
+      
+      </fieldset>
+      </form>
+      <div>
+         <!--DADOS-->
+      </div>
+
+
+    </center>
+    <script src="js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </body>
+</html>
